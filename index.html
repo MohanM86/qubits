@@ -3,447 +3,514 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>QUBITS.no – Norges tekniske kunnskapsbase for kvantebiter og kvantemaskinvare</title>
-<meta name="description" content="QUBITS.no er Norges dypeste tekniske ressurs for kvantebiter, kvantemaskinvare, kvantekretser og kvanteberegning. Fra superledende qubits til fangede ioner, fotoniske systemer og feilkorrigering.">
+<title>AIQUANTUM.no – Norges kunnskapsbase for AI og kvanteteknologi</title>
+<meta name="description" content="AIQUANTUM.no er Norges mest komplette ressurs for kunstig intelligens og kvanteteknologi. Lær om kvanteberegning, kvantekryptografi, maskinlæring og praktiske strategier for norske bedrifter.">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://qubits.no/">
-<meta property="og:title" content="QUBITS.no – Teknisk kunnskapsbase for kvantebiter og kvantemaskinvare">
-<meta property="og:description" content="Norges dypeste tekniske ressurs for qubits, kvantemaskinvare, kvantekretser og kvantealgoritmer.">
-<meta property="og:url" content="https://qubits.no/">
+<link rel="canonical" href="https://aiquantum.no/">
+<meta property="og:title" content="AIQUANTUM.no – Norges kunnskapsbase for AI og kvanteteknologi">
+<meta property="og:description" content="Norges mest komplette ressurs for AI og kvanteteknologi. Kvanteberegning, kvantekryptografi, maskinlæring og strategier for norske bedrifter.">
+<meta property="og:url" content="https://aiquantum.no/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="nb_NO">
-<meta property="og:site_name" content="QUBITS.no">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23060d08'/><circle cx='16' cy='16' r='6' fill='none' stroke='%2300ff88' stroke-width='1.5'/><circle cx='16' cy='16' r='2' fill='%2300ff88'/><line x1='16' y1='4' x2='16' y2='10' stroke='%2300ff8855' stroke-width='1'/><line x1='16' y1='22' x2='16' y2='28' stroke='%2300ff8855' stroke-width='1'/></svg>">
+<meta property="og:site_name" content="AIQUANTUM.no">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2300e5ff'/><stop offset='1' stop-color='%23a855f7'/></linearGradient></defs><rect width='32' height='32' rx='8' fill='%23050510'/><circle cx='16' cy='16' r='9' fill='none' stroke='url(%23g)' stroke-width='1.5'/><circle cx='16' cy='16' r='3' fill='url(%23g)'/><circle cx='16' cy='8' r='1.5' fill='%2300e5ff'/><circle cx='22' cy='20' r='1.5' fill='%23a855f7'/><circle cx='10' cy='20' r='1.5' fill='%2300e5ff'/></svg>">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"Organization","name":"QUBITS.no","url":"https://qubits.no","description":"Norges tekniske kunnskapsbase for kvantebiter og kvantemaskinvare.","parentOrganization":{"@type":"Organization","name":"IT-FIRMA","url":"https://it-firma.no"}},
-{"@type":"WebSite","name":"QUBITS.no","url":"https://qubits.no","publisher":{"@type":"Organization","name":"QUBITS.no"}},
-{"@type":"Article","headline":"Kvantebiter og kvantemaskinvare: En teknisk dybdeguide","author":{"@type":"Organization","name":"QUBITS.no"},"publisher":{"@type":"Organization","name":"QUBITS.no"},"datePublished":"2026-02-28","dateModified":"2026-02-28","mainEntityOfPage":"https://qubits.no/","keywords":"qubits, kvantebiter, kvantemaskinvare, superledende qubits, fangede ioner, kvantekretser, feilkorrigering, kvanteberegning, quantum computing hardware"},
+{"@type":"Organization","name":"AIQUANTUM.no","url":"https://aiquantum.no","description":"Norges kunnskapsbase for AI og kvanteteknologi.","parentOrganization":{"@type":"Organization","name":"IT-FIRMA","url":"https://it-firma.no"},"sameAs":["https://qubits.no","https://quantumcloud.no","https://quantumpay.no","https://quantumsec.no","https://quantumsecurity.no"]},
+{"@type":"WebSite","name":"AIQUANTUM.no","url":"https://aiquantum.no","description":"Norges mest komplette ressurs for kunstig intelligens og kvanteteknologi."},
+{"@type":"Article","headline":"AI og kvanteteknologi i praksis for Norge","author":{"@type":"Organization","name":"AIQUANTUM.no"},"publisher":{"@type":"Organization","name":"AIQUANTUM.no","url":"https://aiquantum.no"},"datePublished":"2026-02-28","dateModified":"2026-02-28","description":"Komplett gjennomgang av AI, kvanteberegning, kvantekryptografi og strategier for norske virksomheter.","mainEntityOfPage":"https://aiquantum.no/","keywords":"AI, kvanteteknologi, kvanteberegning, kvantekryptografi, maskinlæring, Norge, quantum computing, qubits"},
 {"@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"Hva er en qubit?","acceptedAnswer":{"@type":"Answer","text":"En qubit (kvantebit) er den grunnleggende informasjonsenheten i kvanteberegning. I motsetning til en klassisk bit som er 0 eller 1, kan en qubit eksistere i en superposisjon av begge tilstander samtidig. Tilstanden beskrives matematisk som α|0⟩ + β|1⟩, der α og β er komplekse amplituder med |α|² + |β|² = 1."}},
-{"@type":"Question","name":"Hva er forskjellen mellom fysiske og logiske qubits?","acceptedAnswer":{"@type":"Answer","text":"Fysiske qubits er de faktiske kvantesystemene i maskinvaren. Logiske qubits er feilkorrigerte qubits som bruker mange fysiske qubits for å beskytte mot dekohærens og feil. Det kan kreve 1000-10000 fysiske qubits per logisk qubit avhengig av feilrater og korreksjonskode."}},
-{"@type":"Question","name":"Hva er dekohærens?","acceptedAnswer":{"@type":"Answer","text":"Dekohærens er prosessen der kvantetilstander mister sin kvantemekaniske natur gjennom uønsket interaksjon med omgivelsene. Det er den største utfordringen for kvanteberegning, og årsaken til at qubits må holdes ekstremt isolert, ofte ved temperaturer nær absolutt nullpunkt."}},
-{"@type":"Question","name":"Hvilke typer qubits finnes?","acceptedAnswer":{"@type":"Answer","text":"De viktigste typene er superledende qubits (IBM, Google), fangede ioner (IonQ, Quantinuum), fotoniske qubits (Xanadu, PsiQuantum), nøytrale atomer (QuEra, Pasqal), og topologiske qubits (Microsoft). Hver type har forskjellige styrker, feilrater og skaleringsegenskaper."}},
-{"@type":"Question","name":"Hva er kvantevolum?","acceptedAnswer":{"@type":"Answer","text":"Kvantevolum er et mål utviklet av IBM for en kvantedatamaskins samlede ytelse. Det kombinerer antall qubits, tilkoblingsmuligheter, portnøyaktighet og kretsdybde i ett enkelt tall. Et kvantevolum på 2^n betyr at maskinen kan kjøre kretser med n qubits med akseptabel nøyaktighet."}},
-{"@type":"Question","name":"Hvorfor må qubits kjøles ned?","acceptedAnswer":{"@type":"Answer","text":"Superledende qubits opererer ved temperaturer rundt 15 millikelvin, kaldere enn verdensrommet. Ved så lave temperaturer blir materialet superledende med null elektrisk motstand, og termisk støy reduseres nok til å opprettholde kvantetilstander i mikrosekunder til millisekunder."}},
-{"@type":"Question","name":"Hva er en kvanteport?","acceptedAnswer":{"@type":"Answer","text":"En kvanteport er en operasjon som manipulerer tilstanden til en eller flere qubits. Enkeltqubit-porter som Hadamard og Pauli-porter endrer én qubit, mens flerqubit-porter som CNOT skaper sammenfiltring mellom qubits. Universelle kvantedatamaskiner trenger et sett porter som kan uttrykke enhver kvanteoperasjon."}},
-{"@type":"Question","name":"Hva er kvantefeilkorrigering?","acceptedAnswer":{"@type":"Answer","text":"Kvantefeilkorrigering beskytter kvanteinformasjon mot dekohærens og portefeil ved å kode logisk informasjon i mange fysiske qubits. Surface code er den mest lovende metoden for superledende qubits, med en feilterskel på ca. 1%. Bosonic codes og andre metoder kan redusere overhead betydelig."}},
-{"@type":"Question","name":"Hva er NISQ?","acceptedAnswer":{"@type":"Answer","text":"NISQ står for Noisy Intermediate-Scale Quantum og beskriver nåværende kvantedatamaskiner med 50-1000+ qubits som har for høye feilrater til full feilkorrigering. NISQ-algoritmer som VQE og QAOA er designet for å gi nyttige resultater innenfor disse begrensningene."}},
-{"@type":"Question","name":"Når får vi feiltolerante kvantedatamaskiner?","acceptedAnswer":{"@type":"Answer","text":"De fleste eksperter anslår 2030-2040 for de første feiltolerante systemene med nok logiske qubits for praktiske oppgaver. IBM sikter mot feiltolerante systemer innen 2029. Google har demonstrert under-terskel feilkorrigering med surface code i 2024. Veien dit krever vesentlige forbedringer i qubit-kvalitet og skalering."}}
-]}]}
+{"@type":"Question","name":"Hva er kvantedatabehandling?","acceptedAnswer":{"@type":"Answer","text":"Kvantedatabehandling utnytter kvantemekaniske fenomener som superposisjon og sammenfiltring for å utføre beregninger som klassiske datamaskiner ikke klarer. Kvantebiter (qubits) kan representere flere tilstander samtidig, noe som gir eksponentiell beregningskapasitet for spesifikke problemer."}},
+{"@type":"Question","name":"Hva er en qubit og hvordan fungerer den?","acceptedAnswer":{"@type":"Answer","text":"En qubit er den grunnleggende informasjonsenheten i kvanteberegning. I motsetning til en klassisk bit som er 0 eller 1, kan en qubit eksistere i superposisjon av begge tilstander. Fysisk realiseres qubits som superledende kretser, fangede ioner, fotoner eller nøytrale atomer. Les mer på qubits.no."}},
+{"@type":"Question","name":"Truer kvantedatamaskiner cybersikkerheten?","acceptedAnswer":{"@type":"Answer","text":"Ja. Shors algoritme kan bryte RSA og ECC-kryptering. Q-Day, når dette blir mulig, estimeres til 2030-2040. Post-kvante kryptografi og kvantesikker infrastruktur er kritisk. Les mer på quantumsecurity.no og quantumsec.no."}},
+{"@type":"Question","name":"Hva er kvantesikre betalingsløsninger?","acceptedAnswer":{"@type":"Answer","text":"Kvantesikre betalinger bruker post-kvante kryptografi for å beskytte finansielle transaksjoner mot fremtidige kvanteangrep. CRYSTALS-Kyber og CRYSTALS-Dilithium er sentrale algoritmer. Les mer på quantumpay.no."}},
+{"@type":"Question","name":"Hva er kvanteberegning i skyen?","acceptedAnswer":{"@type":"Answer","text":"Kvanteberegning via skytjenester gir tilgang til kvanteprosessorer uten egen infrastruktur. IBM Quantum, Amazon Braket og Azure Quantum er de største plattformene. Les mer på quantumcloud.no."}},
+{"@type":"Question","name":"Hvordan påvirker AI norsk næringsliv?","acceptedAnswer":{"@type":"Answer","text":"AI transformerer energi, helse, finans og havbruk i Norge. Maskinlæring brukes til prediktivt vedlikehold, diagnostikk, svindeldeteksjon og produksjonsoptimalisering."}},
+{"@type":"Question","name":"Hva er forskjellen mellom AI og kvanteberegning?","acceptedAnswer":{"@type":"Answer","text":"AI er programvare som lærer fra data. Kvanteberegning er ny maskinvare basert på kvantemekanikk. Kvante-AI kombinerer begge for akselerert maskinlæring og optimalisering."}},
+{"@type":"Question","name":"Hva bør norske bedrifter gjøre for å forberede seg?","acceptedAnswer":{"@type":"Answer","text":"Start kryptografisk revisjon, implementer kryptoagilitet, bygg AI-kompetanse, og etabler forskningspartnerskap med SINTEF, NTNU eller Simula."}},
+{"@type":"Question","name":"Finnes det norske forskningsmiljøer innen kvanteteknologi?","acceptedAnswer":{"@type":"Answer","text":"Ja. NTNU, UiO, SINTEF og Simula forsker aktivt. Norge deltar i EUs Quantum Flagship med over €1 milliard i budsjett."}},
+{"@type":"Question","name":"Kan småbedrifter dra nytte av AI og kvanteteknologi?","acceptedAnswer":{"@type":"Answer","text":"Absolutt. AI-verktøy er rimelige i dag. Kvanteteknologi vil bli tilgjengelig via skytjenester. Les mer om skybasert tilgang på quantumcloud.no."}}
+]}
+]}
 </script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
---bg:#040a06;--bg2:#071210;--bg3:#0a1a12;
---g1:rgba(255,255,255,0.02);--g2:rgba(255,255,255,0.04);
---gb:rgba(0,255,136,0.06);--gbh:rgba(0,255,136,0.12);
---a:#00ff88;--a2:#00cc6a;--a3:#66ffbb;--a4:#00e5ff;
---ag:rgba(0,255,136,0.06);
---t:#a8c4b0;--td:#4a6b52;--tb:#e8fff0;
---mw:1100px;--r:16px;--rs:10px
-}
+:root{--bg:#03030a;--bg2:#060614;--g1:rgba(255,255,255,0.025);--g2:rgba(255,255,255,0.045);--gb:rgba(255,255,255,0.04);--gbh:rgba(255,255,255,0.09);--c:#00e5ff;--c2:#4dd0e1;--c3:#80f0ff;--v:#a855f7;--v2:#c084fc;--m:#e040fb;--w:#ff6b6b;--t:#b0b0c8;--td:#555570;--tb:#eef0ff;--mw:1120px;--r:18px;--rs:12px}
 @keyframes fu{from{opacity:0;transform:translateY(44px)}to{opacity:1;transform:translateY(0)}}
 @keyframes gp{0%,100%{opacity:.3}50%{opacity:1}}
 @keyframes sh{0%{background-position:-300% 0}100%{background-position:300% 0}}
-@keyframes scanline{0%{transform:translateY(-100%)}100%{transform:translateY(100vh)}}
-@keyframes pulse{0%,100%{box-shadow:0 0 8px rgba(0,255,136,.2)}50%{box-shadow:0 0 20px rgba(0,255,136,.4)}}
+@keyframes od{0%{transform:translate(0,0) scale(1)}33%{transform:translate(50px,-35px) scale(1.07)}66%{transform:translate(-25px,40px) scale(.94)}100%{transform:translate(0,0) scale(1)}}
+@keyframes od2{0%{transform:translate(0,0)}50%{transform:translate(-40px,30px)}100%{transform:translate(0,0)}}
+@keyframes rr{from{transform:translate(-50%,-50%) rotate(0)}to{transform:translate(-50%,-50%) rotate(360deg)}}
 html{scroll-behavior:smooth;background:var(--bg)}
-body{font-family:'SF Mono',SFMono-Regular,Menlo,'Courier New',monospace;color:var(--t);line-height:1.78;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-body::after{content:'';position:fixed;inset:0;z-index:99999;pointer-events:none;opacity:.02;
-background:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:200px}
-
-/* Circuit grid */
-.cbg{position:fixed;inset:0;pointer-events:none;opacity:.04;
-background-image:
-  linear-gradient(rgba(0,255,136,.4) 1px,transparent 1px),
-  linear-gradient(90deg,rgba(0,255,136,.4) 1px,transparent 1px);
-background-size:48px 48px}
-
-/* Scanline effect */
-.scan{position:fixed;inset:0;pointer-events:none;z-index:99998;opacity:.015}
-.scan::before{content:'';position:absolute;left:0;right:0;height:4px;background:var(--a);filter:blur(2px);animation:scanline 6s linear infinite}
-
-#pb{position:fixed;top:0;left:0;height:2px;z-index:10002;width:0;background:var(--a);box-shadow:0 0 20px var(--a)}
-
-header{position:sticky;top:0;z-index:1000;background:rgba(4,10,6,.7);backdrop-filter:blur(30px) saturate(1.5);
-border-bottom:1px solid rgba(0,255,136,.06)}
-.hdr{max-width:var(--mw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 36px}
-.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-.logo svg{width:32px;height:32px}
-.logo span{font-size:.9rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--a)}
-.logo small{font-size:.55rem;color:var(--td);letter-spacing:.1em;margin-left:4px}
-nav{display:flex;gap:2px}
-nav a{color:var(--td);text-decoration:none;font-size:.72rem;letter-spacing:.06em;padding:7px 14px;border-radius:6px;transition:all .3s}
-nav a:hover,nav a.act{color:var(--a);background:rgba(0,255,136,.04)}
-.nav-cta{border:1px solid rgba(0,255,136,.15)!important;color:var(--a)!important}
-
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,sans-serif;color:var(--t);line-height:1.78;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::after{content:'';position:fixed;inset:0;z-index:99999;pointer-events:none;opacity:.022;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:200px}
+.gbg{position:fixed;inset:0;pointer-events:none;opacity:.025;background-image:linear-gradient(rgba(0,229,255,.25) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.25) 1px,transparent 1px);background-size:72px 72px}
+#pb{position:fixed;top:0;left:0;height:2px;z-index:10002;width:0;background:linear-gradient(90deg,var(--c),var(--v),var(--m),var(--c));background-size:300% 100%;animation:sh 4s linear infinite;box-shadow:0 0 20px var(--c),0 0 40px rgba(168,85,247,.3)}
+header{position:sticky;top:0;z-index:1000;background:rgba(3,3,10,.55);backdrop-filter:blur(40px) saturate(1.8);border-bottom:1px solid rgba(255,255,255,.03)}
+header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,229,255,.06),rgba(168,85,247,.06),transparent)}
+.hdr{max-width:var(--mw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:68px;padding:0 36px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo svg{width:36px;height:36px;flex-shrink:0}
+.logo-t{display:flex;flex-direction:column;line-height:1.1}
+.logo-m{font-size:.95rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+.logo-m .a{background:linear-gradient(135deg,var(--c),var(--c2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.logo-m .q{color:var(--tb)}
+.logo-s{font-size:.55rem;letter-spacing:.18em;text-transform:uppercase;color:var(--td)}
+nav{display:flex;align-items:center;gap:2px}
+nav a{color:var(--td);text-decoration:none;font-size:.78rem;font-weight:500;letter-spacing:.04em;padding:8px 16px;border-radius:8px;transition:all .3s;white-space:nowrap}
+nav a:hover{color:var(--c);background:rgba(0,229,255,.04)}
+nav a.act{color:var(--c);background:rgba(0,229,255,.06)}
+.nav-cta{background:linear-gradient(135deg,rgba(0,229,255,.1),rgba(168,85,247,.1))!important;border:1px solid rgba(0,229,255,.15)!important;color:var(--c)!important;font-weight:600!important}
 main{max-width:var(--mw);margin:0 auto;padding:0 36px;position:relative;z-index:1}
-.rv{opacity:0;transform:translateY(40px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.rv{opacity:0;transform:translateY(44px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1)}
 .rv.v{opacity:1;transform:translateY(0)}
-
-.hero{padding:120px 0 80px;text-align:center;position:relative}
-.hero h1{font-size:clamp(2.2rem,5.5vw,3.8rem);font-weight:700;letter-spacing:-.03em;line-height:1.1;margin-bottom:24px;animation:fu .8s ease both;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
-.hero h1 .a{color:var(--a);text-shadow:0 0 30px rgba(0,255,136,.3)}
-.hero h1 .w{color:var(--tb)}
-.hero .lead{font-size:.95rem;max-width:620px;margin:0 auto 40px;color:var(--t);line-height:1.85;animation:fu .8s ease .15s both}
-.btn-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;animation:fu .8s ease .3s both}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 32px;border-radius:10px;font-size:.82rem;font-weight:600;text-decoration:none;transition:all .4s;font-family:inherit;letter-spacing:.04em}
-.bp{color:var(--bg);background:var(--a);box-shadow:0 0 30px rgba(0,255,136,.2)}
-.bp:hover{box-shadow:0 0 50px rgba(0,255,136,.4);transform:translateY(-2px)}
-.bs{color:var(--a);border:1px solid rgba(0,255,136,.15);background:rgba(0,255,136,.04)}
-.bs:hover{background:rgba(0,255,136,.08);transform:translateY(-2px)}
-
-/* Stats */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin:60px 0 0;background:rgba(0,255,136,.06);border-radius:var(--r);overflow:hidden;animation:fu .8s ease .45s both}
-.stat{background:var(--bg);padding:28px 20px;text-align:center}
-.stat-n{font-size:1.6rem;font-weight:700;color:var(--a);margin-bottom:4px;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
-.stat-l{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--td)}
-
-section{padding:80px 0}
-.sm{display:flex;align-items:center;gap:12px;margin-bottom:28px}
-.sm-line{width:36px;height:2px;background:var(--a);border-radius:1px}
-.sm-tag{font-size:.62rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--td)}
-h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;letter-spacing:-.03em;color:var(--tb);margin-bottom:8px;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
-.sub{font-size:.85rem;color:var(--td);margin-bottom:36px;max-width:520px}
-h3{font-size:1rem;font-weight:700;color:var(--tb);margin:32px 0 12px;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
-p+p{margin-top:14px}
-strong{color:var(--tb)}
-
-.divider{height:1px;border:0;background:linear-gradient(90deg,transparent,rgba(0,255,136,.06),transparent)}
-
-/* Cards */
-.fg{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:36px 0}
-.fc{padding:28px 24px;border-radius:var(--r);background:var(--g1);border:1px solid var(--gb);transition:all .4s;position:relative;overflow:hidden}
-.fc::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,255,136,.08),transparent)}
-.fc:hover{border-color:var(--gbh);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,.4)}
-.fc h4{font-size:.88rem;font-weight:700;color:var(--a);margin-bottom:10px;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
-.fc p{font-size:.8rem;color:var(--t);line-height:1.75}
-.fc .mono{font-size:.7rem;color:var(--td);margin-top:10px;padding-top:10px;border-top:1px solid rgba(0,255,136,.04);font-family:inherit}
-
-/* Tables */
-.tw{overflow-x:auto;margin:28px 0;border-radius:var(--rs);border:1px solid var(--gb)}
-table{width:100%;border-collapse:collapse;font-size:.78rem}
-thead{background:rgba(0,255,136,.03)}
-th{text-align:left;padding:13px 20px;font-weight:600;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--a);border-bottom:1px solid var(--gb)}
-td{padding:12px 20px;border-bottom:1px solid rgba(0,255,136,.03);color:var(--td);transition:all .3s}
+.hero{position:relative;padding:120px 0 100px;text-align:center;overflow:visible}
+.ho{position:absolute;pointer-events:none;border-radius:50%;filter:blur(120px)}
+.ho1{width:600px;height:600px;background:radial-gradient(circle,rgba(0,229,255,.09),transparent 70%);top:-120px;left:-150px;animation:od 18s ease-in-out infinite}
+.ho2{width:500px;height:500px;background:radial-gradient(circle,rgba(168,85,247,.07),transparent 70%);top:-50px;right:-180px;animation:od2 22s ease-in-out infinite}
+.ho3{width:350px;height:350px;background:radial-gradient(circle,rgba(224,64,251,.05),transparent 70%);bottom:-100px;left:35%;animation:od 25s ease-in-out infinite}
+.hr{position:absolute;top:50%;left:50%;border-radius:50%;pointer-events:none}
+.hr1{width:650px;height:650px;border:1px solid rgba(0,229,255,.03);animation:rr 90s linear infinite}
+.hr2{width:850px;height:850px;border:1px solid rgba(168,85,247,.02);animation:rr 140s linear infinite reverse}
+.hc{position:relative;z-index:2}
+.hero h1{font-size:clamp(2.8rem,7vw,5rem);font-weight:800;letter-spacing:-.05em;line-height:1.04;margin-bottom:28px;animation:fu .8s ease both}
+.hero h1 .tw{color:var(--tb)}
+.hero h1 .tc{background:linear-gradient(135deg,var(--c),var(--c2),var(--c3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero h1 .tv{background:linear-gradient(135deg,var(--v),var(--m));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero .lead{font-size:1.12rem;color:var(--t);max-width:640px;margin:0 auto 48px;line-height:1.85;animation:fu .8s ease .15s both}
+.btn-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;animation:fu .8s ease .3s both}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 38px;border-radius:14px;font-size:.88rem;font-weight:600;text-decoration:none;letter-spacing:.01em;transition:all .4s cubic-bezier(.16,1,.3,1);position:relative;overflow:hidden}
+.bp{color:var(--bg);background:linear-gradient(135deg,var(--c),var(--c2));box-shadow:0 4px 36px rgba(0,229,255,.25),inset 0 1px 0 rgba(255,255,255,.2)}
+.bp:hover{box-shadow:0 8px 52px rgba(0,229,255,.4);transform:translateY(-3px) scale(1.02)}
+.bp::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.1),transparent);background-size:200% 100%;animation:sh 4s ease infinite}
+.bs{color:var(--tb);background:var(--g1);border:1px solid var(--gb);backdrop-filter:blur(12px)}
+.bs:hover{border-color:rgba(168,85,247,.2);background:rgba(168,85,247,.06);transform:translateY(-3px)}
+.btn svg{width:16px;height:16px;flex-shrink:0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin:80px 0 0;border-radius:var(--r);overflow:hidden;animation:fu .8s ease .45s both}
+.stat{padding:32px 24px;background:var(--g1);text-align:center;transition:background .4s}
+.stat:hover{background:var(--g2)}
+.stat-n{font-size:2rem;font-weight:800;letter-spacing:-.03em;margin-bottom:4px;background:linear-gradient(135deg,var(--c),var(--v));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.stat-l{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--td)}
+section{padding:96px 0;position:relative}
+.sm{display:flex;align-items:center;gap:14px;margin-bottom:32px}
+.sm-line{width:40px;height:2px;background:linear-gradient(90deg,var(--c),var(--v));border-radius:1px}
+.sm-tag{font-size:.65rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--td)}
+h2{font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;letter-spacing:-.04em;color:var(--tb);margin-bottom:10px;line-height:1.12}
+.sub{font-size:.92rem;color:var(--td);margin-bottom:40px;max-width:560px}
+h3{font-size:1.12rem;font-weight:700;color:var(--tb);margin:36px 0 14px;letter-spacing:-.01em}
+p+p{margin-top:16px}
+strong{color:var(--tb);font-weight:600}
+a.il{color:var(--c);text-decoration:none;border-bottom:1px solid rgba(0,229,255,.25);transition:all .3s}
+a.il:hover{color:var(--tb);border-color:var(--tb)}
+a.il.vi{color:var(--v);border-color:rgba(168,85,247,.25)}
+a.il.vi:hover{color:var(--tb)}
+a.il.ma{color:var(--m);border-color:rgba(224,64,251,.25)}
+a.il.ma:hover{color:var(--tb)}
+a.il.wa{color:var(--w);border-color:rgba(255,107,107,.25)}
+a.il.wa:hover{color:var(--tb)}
+.divider{height:1px;border:0;background:linear-gradient(90deg,transparent,rgba(0,229,255,.05),rgba(168,85,247,.05),transparent)}
+.ic{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:1px solid var(--gb)}
+.ic svg{width:24px;height:24px}
+.ic-c{background:rgba(0,229,255,.06);border-color:rgba(0,229,255,.1)}
+.ic-c svg{color:var(--c)}
+.ic-v{background:rgba(168,85,247,.06);border-color:rgba(168,85,247,.1)}
+.ic-v svg{color:var(--v)}
+.ic-m{background:rgba(224,64,251,.06);border-color:rgba(224,64,251,.1)}
+.ic-m svg{color:var(--m)}
+.ic-w{background:rgba(255,107,107,.06);border-color:rgba(255,107,107,.1)}
+.ic-w svg{color:var(--w)}
+.ic-g{background:rgba(0,200,120,.06);border-color:rgba(0,200,120,.1)}
+.ic-g svg{color:#00c878}
+.ic-b{background:rgba(60,130,255,.06);border-color:rgba(60,130,255,.1)}
+.ic-b svg{color:#3c82ff}
+.fg{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:40px 0}
+.fc{padding:32px 28px;border-radius:var(--r);background:var(--g1);border:1px solid var(--gb);position:relative;overflow:hidden;transition:all .5s cubic-bezier(.16,1,.3,1)}
+.fc:hover{border-color:var(--gbh);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,.3)}
+.fc .ic{margin-bottom:20px}
+.fc h4{font-size:.95rem;font-weight:700;color:var(--tb);margin-bottom:10px}
+.fc p{font-size:.84rem;color:var(--t);line-height:1.75}
+.gc{position:relative;background:var(--g1);border:1px solid var(--gb);border-radius:var(--r);padding:40px;margin:40px 0;overflow:hidden;transition:all .5s cubic-bezier(.16,1,.3,1)}
+.gc::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.04),transparent)}
+.gc:hover{border-color:var(--gbh);transform:translateY(-2px)}
+.co{position:relative;padding:28px 32px 28px 38px;border-radius:var(--r);margin:36px 0;overflow:hidden}
+.co::before{content:'';position:absolute;top:14px;bottom:14px;left:0;width:3px;border-radius:2px}
+.co.cy{background:linear-gradient(135deg,rgba(0,229,255,.04),rgba(0,229,255,.01));border:1px solid rgba(0,229,255,.06)}.co.cy::before{background:var(--c);box-shadow:0 0 14px var(--c)}
+.co.vi{background:linear-gradient(135deg,rgba(168,85,247,.04),rgba(168,85,247,.01));border:1px solid rgba(168,85,247,.06)}.co.vi::before{background:var(--v);box-shadow:0 0 14px var(--v)}
+.co.ma{background:linear-gradient(135deg,rgba(224,64,251,.04),rgba(224,64,251,.01));border:1px solid rgba(224,64,251,.06)}.co.ma::before{background:var(--m);box-shadow:0 0 14px var(--m)}
+.co.wa{background:linear-gradient(135deg,rgba(255,107,107,.04),rgba(255,107,107,.01));border:1px solid rgba(255,107,107,.06)}.co.wa::before{background:var(--w);box-shadow:0 0 14px var(--w)}
+.co-h{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.co-h .dot{width:7px;height:7px;border-radius:50%}
+.co.cy .dot{background:var(--c);box-shadow:0 0 8px var(--c)}.co.vi .dot{background:var(--v);box-shadow:0 0 8px var(--v)}.co.ma .dot{background:var(--m);box-shadow:0 0 8px var(--m)}.co.wa .dot{background:var(--w);box-shadow:0 0 8px var(--w)}
+.co-h strong{font-size:.92rem;color:var(--tb)}.co p{font-size:.88rem;line-height:1.8}
+.tw-w{overflow-x:auto;margin:28px 0;border-radius:var(--rs);border:1px solid var(--gb)}
+table{width:100%;border-collapse:collapse;font-size:.84rem}
+thead{background:rgba(255,255,255,.02)}
+th{text-align:left;padding:15px 24px;font-weight:600;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--c);border-bottom:1px solid var(--gb)}
+td{padding:14px 24px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--td);transition:all .3s}
 tr:last-child td{border-bottom:0}
-tr:hover td{color:var(--t);background:rgba(0,255,136,.01)}
-
-/* Callout */
-.co{padding:24px 28px 24px 32px;border-radius:var(--r);margin:32px 0;background:rgba(0,255,136,.03);border:1px solid rgba(0,255,136,.06);position:relative}
-.co::before{content:'';position:absolute;top:12px;bottom:12px;left:0;width:3px;border-radius:2px;background:var(--a);box-shadow:0 0 10px var(--a)}
-.co strong{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:.88rem;color:var(--tb);font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
-.co strong::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--a);box-shadow:0 0 8px var(--a)}
-.co p{font-size:.84rem;line-height:1.78}
-
-/* Code blocks */
-.code{background:rgba(0,255,136,.02);border:1px solid rgba(0,255,136,.06);border-radius:var(--rs);padding:20px 24px;margin:24px 0;font-size:.76rem;color:var(--a);line-height:1.8;overflow-x:auto}
-.code .cm{color:var(--td)}
-.code .kw{color:var(--a4)}
-
-/* Tags */
-.ents{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}
-.tag{padding:6px 16px;border-radius:6px;font-size:.7rem;background:var(--g1);border:1px solid var(--gb);color:var(--td);transition:all .3s}
-.tag:hover{border-color:rgba(0,255,136,.15);color:var(--a)}
-
+tr:hover td{color:var(--t);background:rgba(255,255,255,.01)}
+.steps{counter-reset:step;list-style:none;margin:40px 0;position:relative}
+.steps::before{content:'';position:absolute;left:23px;top:30px;bottom:30px;width:1px;background:linear-gradient(180deg,var(--c),var(--v),transparent)}
+.steps li{counter-increment:step;position:relative;padding:24px 0 24px 76px}
+.steps li::before{content:counter(step,decimal-leading-zero);position:absolute;left:0;top:22px;width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:800;background:var(--bg2);border:1px solid var(--gb);color:var(--c)}
+.steps li+li{border-top:1px solid rgba(255,255,255,.025)}
+.steps li strong{color:var(--tb);display:block;margin-bottom:6px;font-size:.95rem}
+.steps li p{font-size:.86rem;color:var(--t);margin:0;line-height:1.78}
+.tl{margin:48px 0;position:relative}
+.tl::before{content:'';position:absolute;left:24px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--c),var(--v),var(--m),transparent)}
+.tl-i{position:relative;padding:0 0 40px 68px}
+.tl-d{position:absolute;left:16px;top:4px;width:18px;height:18px;border-radius:50%;background:var(--bg);border:2px solid var(--c);box-shadow:0 0 12px rgba(0,229,255,.3)}
+.tl-i:nth-child(2) .tl-d{border-color:var(--v);box-shadow:0 0 12px rgba(168,85,247,.3)}
+.tl-i:nth-child(3) .tl-d{border-color:var(--m);box-shadow:0 0 12px rgba(224,64,251,.3)}
+.tl-i:nth-child(4) .tl-d{border-color:var(--w);box-shadow:0 0 12px rgba(255,107,107,.3)}
+.tl-y{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--c);margin-bottom:6px}
+.tl-i:nth-child(2) .tl-y{color:var(--v)}.tl-i:nth-child(3) .tl-y{color:var(--m)}.tl-i:nth-child(4) .tl-y{color:var(--w)}
+.tl-tt{font-size:1rem;font-weight:700;color:var(--tb);margin-bottom:6px}
+.tl-dd{font-size:.86rem;color:var(--t);line-height:1.75}
+.ents{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}
+.tag{padding:8px 20px;border-radius:50px;font-size:.74rem;font-weight:500;background:var(--g1);border:1px solid var(--gb);color:var(--td);transition:all .35s;cursor:default}
+.tag:hover{border-color:rgba(0,229,255,.15);color:var(--c);background:rgba(0,229,255,.03)}
+/* Ecosystem cards */
+.eco{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:48px 0}
+.eco-c{padding:28px 24px;border-radius:var(--r);background:var(--g1);border:1px solid var(--gb);text-decoration:none;display:flex;flex-direction:column;align-items:flex-start;gap:14px;transition:all .5s cubic-bezier(.16,1,.3,1)}
+.eco-c:hover{border-color:var(--gbh);transform:translateY(-5px);box-shadow:0 20px 48px rgba(0,0,0,.35)}
+.eco-c .ic{margin:0}
+.eco-c h4{font-size:.88rem;font-weight:700;color:var(--tb)}
+.eco-c p{font-size:.74rem;color:var(--td);line-height:1.6}
+.eco-c .arrow{font-size:.7rem;color:var(--td);margin-top:auto;padding-top:8px;transition:color .3s}
+.eco-c:hover .arrow{color:var(--c)}
 /* FAQ */
-.faq-item{border-bottom:1px solid rgba(0,255,136,.04)}
-.faq-q{padding:22px 0;font-weight:600;color:var(--tb);cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:.88rem;transition:color .3s;gap:16px;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
-.faq-q:hover{color:var(--a)}
-.faq-ico{width:28px;height:28px;border-radius:6px;border:1px solid var(--gb);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .4s}
-.faq-ico span{font-size:.8rem;color:var(--a);transition:transform .4s cubic-bezier(.16,1,.3,1)}
-.faq-item.open .faq-ico{background:rgba(0,255,136,.06);border-color:rgba(0,255,136,.15)}
+.faq-item{border-bottom:1px solid rgba(255,255,255,.03)}
+.faq-q{padding:26px 0;font-weight:600;color:var(--tb);cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:.95rem;transition:color .3s;user-select:none;gap:16px}
+.faq-q:hover{color:var(--c)}
+.faq-ico{width:32px;height:32px;border-radius:10px;border:1px solid var(--gb);display:flex;align-items:center;justify-content:center;flex-shrink:0;background:var(--g1);transition:all .4s}
+.faq-ico span{display:block;font-size:.85rem;color:var(--c);transition:transform .4s cubic-bezier(.16,1,.3,1);line-height:1}
+.faq-item.open .faq-ico{background:rgba(0,229,255,.06);border-color:rgba(0,229,255,.15)}
 .faq-item.open .faq-ico span{transform:rotate(45deg)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .5s cubic-bezier(.16,1,.3,1);color:var(--t);font-size:.82rem;line-height:1.8}
-.faq-item.open .faq-a{max-height:500px;padding-bottom:22px}
-
-footer{padding:56px 36px 40px;border-top:1px solid rgba(0,255,136,.04)}
-.ft{max-width:var(--mw);margin:0 auto;display:flex;justify-content:space-between;align-items:start;gap:40px;flex-wrap:wrap}
-.ft-col h5{font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--td);margin-bottom:12px}
-.ft-col a{display:block;font-size:.78rem;color:var(--t);text-decoration:none;padding:4px 0;transition:color .3s}
-.ft-col a:hover{color:var(--a)}
-.ft-bottom{max-width:var(--mw);margin:32px auto 0;padding-top:20px;border-top:1px solid rgba(0,255,136,.03);font-size:.68rem;color:var(--td);display:flex;justify-content:space-between}
-.ft-bottom a{color:var(--a);text-decoration:none}
-
-@media(max-width:768px){
-  .fg{grid-template-columns:1fr}
-  .stats{grid-template-columns:repeat(2,1fr)}
-  .ft{flex-direction:column}
-}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .5s cubic-bezier(.16,1,.3,1),padding .5s;color:var(--t);font-size:.88rem;line-height:1.82}
+.faq-item.open .faq-a{max-height:600px;padding-bottom:26px}
+footer{padding:72px 36px 48px;position:relative}
+footer::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,229,255,.05),rgba(168,85,247,.05),transparent)}
+.ft{max-width:var(--mw);margin:0 auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px}
+.ft-b{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.ft-b span{font-size:.82rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--tb)}
+.ft p{font-size:.8rem;color:var(--td);line-height:1.7;max-width:300px}
+.ft h5{font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--td);margin-bottom:14px}
+.ft a{display:block;font-size:.8rem;color:var(--t);text-decoration:none;padding:4px 0;transition:color .3s}
+.ft a:hover{color:var(--c)}
+.ft-line{max-width:var(--mw);margin:36px auto 0;padding-top:24px;border-top:1px solid rgba(255,255,255,.025);display:flex;justify-content:space-between;align-items:center;font-size:.7rem;color:var(--td);flex-wrap:wrap;gap:8px}
+.ft-line a{color:var(--c);text-decoration:none;border-bottom:1px solid rgba(0,229,255,.2);transition:all .3s}
+.ft-line a:hover{color:var(--tb);border-color:transparent}
+@media(max-width:900px){.fg{grid-template-columns:1fr 1fr}.stats{grid-template-columns:repeat(2,1fr)}.ft{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.hdr{padding:0 20px}main{padding:0 20px}.hero{padding:80px 0 60px}.fg{grid-template-columns:1fr}section{padding:64px 0}nav a{padding:6px 10px;font-size:.72rem}footer{padding:48px 20px 36px}.ft{grid-template-columns:1fr;gap:28px}.stats{grid-template-columns:1fr 1fr}.eco{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
-<div class="cbg"></div>
-<div class="scan"></div>
+<div class="gbg"></div>
 <div id="pb"></div>
-
 <header>
 <div class="hdr">
 <a href="/" class="logo">
-<svg viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="rgba(0,255,136,0.06)" stroke="rgba(0,255,136,0.15)" stroke-width="1"/><circle cx="16" cy="16" r="6" stroke="#00ff88" stroke-width="1.2" fill="none"/><circle cx="16" cy="16" r="2" fill="#00ff88"/><line x1="16" y1="5" x2="16" y2="10" stroke="rgba(0,255,136,0.3)" stroke-width=".8"/><line x1="16" y1="22" x2="16" y2="27" stroke="rgba(0,255,136,0.3)" stroke-width=".8"/><line x1="5" y1="16" x2="10" y2="16" stroke="rgba(0,255,136,0.3)" stroke-width=".8"/><line x1="22" y1="16" x2="27" y2="16" stroke="rgba(0,255,136,0.3)" stroke-width=".8"/></svg>
-<span>QUBITS<small>.no</small></span>
+<svg viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="10" fill="rgba(0,229,255,0.06)" stroke="rgba(0,229,255,0.15)" stroke-width="1"/><circle cx="18" cy="18" r="8" stroke="url(#lg1)" stroke-width="1.2" fill="none"/><circle cx="18" cy="18" r="3" fill="url(#lg1)"/><circle cx="18" cy="10.5" r="2" fill="#00e5ff"/><circle cx="24" cy="22" r="2" fill="#a855f7"/><circle cx="12" cy="22" r="2" fill="#00e5ff"/><line x1="18" y1="10.5" x2="24" y2="22" stroke="rgba(0,229,255,0.2)" stroke-width=".6"/><line x1="24" y1="22" x2="12" y2="22" stroke="rgba(168,85,247,0.2)" stroke-width=".6"/><line x1="12" y1="22" x2="18" y2="10.5" stroke="rgba(0,229,255,0.2)" stroke-width=".6"/><defs><linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00e5ff"/><stop offset="100%" stop-color="#a855f7"/></linearGradient></defs></svg>
+<div class="logo-t"><div class="logo-m"><span class="a">AI</span><span class="q">QUANTUM</span></div><div class="logo-s">Kunnskapsbase</div></div>
 </a>
 <nav>
-<a href="#fysikk">Fysikk</a>
-<a href="#maskinvare">Maskinvare</a>
-<a href="#porter">Porter</a>
-<a href="#feilkorr">Feilkorrigering</a>
+<a href="#kvanteberegning">Kvante</a>
+<a href="#kryptografi">Krypto</a>
+<a href="#ai">AI</a>
+<a href="#okosystem">Økosystem</a>
+<a href="#strategi">Strategi</a>
 <a href="#faq">FAQ</a>
-<a href="https://aiquantum.no" class="nav-cta">AIQUANTUM</a>
+<a href="https://it-firma.no" class="nav-cta" target="_blank" rel="noopener">IT-FIRMA</a>
 </nav>
 </div>
 </header>
-
 <main>
 
 <section class="hero">
-<h1><span class="a">Kvantebiter</span> <span class="w">og kvantemaskinvare</span><br><span class="w">den tekniske dybdeguiden</span></h1>
-<p class="lead">Fra superposisjon til feiltoleranse. QUBITS.no er Norges mest tekniske ressurs for å forstå kvantebiter, kvantemaskinvare, kvantekretser og veien mot feiltolerante kvantedatamaskiner.</p>
+<div class="ho ho1"></div><div class="ho ho2"></div><div class="ho ho3"></div>
+<div class="hr hr1"></div><div class="hr hr2"></div>
+<div class="hc">
+<h1><span class="tw">Norges komplette kunnskapsbase for </span><span class="tc">AI</span><span class="tw"> og </span><span class="tv">kvanteteknologi</span></h1>
+<p class="lead">Alt du trenger å vite om kunstig intelligens, kvanteberegning og kvantekryptografi. Fra teknisk dybde på <a href="https://qubits.no" class="il">Qubits.no</a> til kvantesikre betalinger på <a href="https://quantumpay.no" class="il vi">QuantumPay.no</a>.</p>
 <div class="btn-row">
-<a href="#fysikk" class="btn bp">Start med fysikken →</a>
-<a href="https://aiquantum.no" class="btn bs">← AIQUANTUM.no</a>
+<a href="#kvanteberegning" class="btn bp">Utforsk kvanteteknologi <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+<a href="#okosystem" class="btn bs">Se hele økosystemet</a>
+</div>
 </div>
 <div class="stats rv">
-<div class="stat"><div class="stat-n">1 121</div><div class="stat-l">IBM Condor Qubits</div></div>
-<div class="stat"><div class="stat-n">99.5%</div><div class="stat-l">Beste portnøyaktighet</div></div>
-<div class="stat"><div class="stat-n">~1ms</div><div class="stat-l">T2 koherenstid</div></div>
-<div class="stat"><div class="stat-n">15 mK</div><div class="stat-l">Driftstemperatur</div></div>
+<div class="stat"><div class="stat-n">1 000+</div><div class="stat-l">Qubits tilgjengelig</div></div>
+<div class="stat"><div class="stat-n">2030</div><div class="stat-l">Estimert Q-Day</div></div>
+<div class="stat"><div class="stat-n">€1 mrd</div><div class="stat-l">EU Quantum Flagship</div></div>
+<div class="stat"><div class="stat-n">6</div><div class="stat-l">Domener i økosystemet</div></div>
 </div>
 </section>
 
 <hr class="divider">
 
-<section id="fysikk" class="rv">
-<div class="sm"><div class="sm-line"></div><span class="sm-tag">Kvantefysikk</span></div>
-<h2>Hva er en qubit, egentlig?</h2>
-<p class="sub">Den matematiske og fysiske grunnmuren.</p>
-
-<p><strong>Kort svar:</strong> En qubit er et kvantemekanisk to-nivå-system som kan eksistere i en superposisjon av tilstandene |0⟩ og |1⟩. Matematisk beskrives tilstanden som |ψ⟩ = α|0⟩ + β|1⟩, der α og β er komplekse amplituder og |α|² + |β|² = 1. Ved måling kollapser qubiten til |0⟩ med sannsynlighet |α|² eller |1⟩ med sannsynlighet |β|².</p>
-
-<p>Det som gjør qubits fundamentalt forskjellig fra klassiske bits er ikke bare superposisjon, men kombinasjonen av superposisjon, sammenfiltring og interferens. En enkelt qubit gir deg ikke mye ekstra. Men n sammenfiltrede qubits kan representere 2^n tilstander samtidig, og kvanteinterferens lar deg manipulere sannsynlighetene for å forsterke riktige svar.</p>
-
-<div class="code">
-<span class="cm">// Qubit-tilstand på Bloch-sfæren</span><br>
-<span class="kw">|ψ⟩</span> = cos(θ/2)<span class="kw">|0⟩</span> + e^(iφ)·sin(θ/2)<span class="kw">|1⟩</span><br><br>
-<span class="cm">// θ: polar vinkel (0 til π)</span><br>
-<span class="cm">// φ: azimutal vinkel (0 til 2π)</span><br>
-<span class="cm">// |0⟩ = nordpol, |1⟩ = sydpol</span>
+<!-- ECOSYSTEM -->
+<section id="okosystem" class="rv">
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Økosystem</span></div>
+<h2>Norges kvanteteknologi-økosystem</h2>
+<p class="sub">Seks spesialiserte plattformer. Én komplett kunnskapsbase.</p>
+<p>AIQUANTUM.no er navet i Norges mest omfattende økosystem for AI og kvanteteknologi. Hver plattform dekker et spesialisert område, fra teknisk dybde om <a href="https://qubits.no" class="il">kvantebiter og maskinvare</a> til <a href="https://quantumsecurity.no" class="il vi">enterprise kryptografisk compliance</a>. Sammen gir de deg alt du trenger for å navigere kvanteteknologiens fremtid.</p>
+<div class="eco">
+<a href="https://qubits.no" class="eco-c" target="_blank" rel="noopener">
+<div class="ic ic-g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="4" r="2"/><circle cx="19" cy="17" r="2"/><circle cx="5" cy="17" r="2"/><line x1="12" y1="7" x2="12" y2="9"/><line x1="16.5" y1="15.5" x2="14.6" y2="14"/><line x1="7.5" y1="15.5" x2="9.4" y2="14"/></svg></div>
+<h4>Qubits.no</h4>
+<p>Dyp teknisk kunnskapsbase om kvantebiter, kvantemaskinvare og kvantealgoritmer.</p>
+<span class="arrow">Utforsk →</span>
+</a>
+<a href="https://quantumcloud.no" class="eco-c" target="_blank" rel="noopener">
+<div class="ic ic-b"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 19a4.5 4.5 0 01-.5-8.97A7 7 0 0119 10a4 4 0 01.5 7.97"/><line x1="10" y1="13" x2="10" y2="21"/><line x1="14" y1="13" x2="14" y2="21"/></svg></div>
+<h4>QuantumCloud.no</h4>
+<p>Kvanteberegning via skytjenester. IBM Quantum, Amazon Braket, Azure Quantum.</p>
+<span class="arrow">Utforsk →</span>
+</a>
+<a href="https://quantumpay.no" class="eco-c" target="_blank" rel="noopener">
+<div class="ic ic-w"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="3"/><line x1="2" y1="10" x2="22" y2="10"/><circle cx="7" cy="15" r="1.5"/></svg></div>
+<h4>QuantumPay.no</h4>
+<p>Kvantesikre betalingsløsninger og fremtidens fintech-infrastruktur.</p>
+<span class="arrow">Utforsk →</span>
+</a>
+<a href="https://quantumsec.no" class="eco-c" target="_blank" rel="noopener">
+<div class="ic ic-m"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+<h4>QuantumSec.no</h4>
+<p>Offensiv kvantesikkerhet, trusselanalyse og penetrasjonstesting.</p>
+<span class="arrow">Utforsk →</span>
+</a>
+<a href="https://quantumsecurity.no" class="eco-c" target="_blank" rel="noopener">
+<div class="ic ic-v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/><circle cx="12" cy="16" r="1.5"/></svg></div>
+<h4>QuantumSecurity.no</h4>
+<p>Enterprise kryptografisk compliance og post-kvante migrering.</p>
+<span class="arrow">Utforsk →</span>
+</a>
+<a href="https://it-firma.no" class="eco-c" target="_blank" rel="noopener">
+<div class="ic ic-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9l3 3-3 3"/><line x1="14" y1="15" x2="17" y2="15"/></svg></div>
+<h4>IT-FIRMA</h4>
+<p>Teknologiselskapet bak hele økosystemet. Utvikling, rådgivning og drift.</p>
+<span class="arrow">Utforsk →</span>
+</a>
 </div>
+</section>
 
+<hr class="divider">
+
+<!-- KVANTEBEREGNING -->
+<section id="kvanteberegning" class="rv">
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Grunnleggende</span></div>
+<h2>Kvanteberegning fra grunnen av</h2>
+<p class="sub">En fullstendig gjennomgang av teknologien som vil endre alt.</p>
+<p><strong>Kort svar:</strong> Kvanteberegning er en fundamentalt ny tilnærming til databehandling som utnytter kvantemekaniske fenomener. Det handler ikke om å gjøre ting raskere, men om å gjøre helt nye ting mulig. For en teknisk dybdegjennomgang av selve <a href="https://qubits.no" class="il">kvantebitene og maskinvaren, besøk Qubits.no</a>.</p>
+<p>I en klassisk datamaskin er den minste informasjonsenheten en bit, som er enten 0 eller 1. I en kvantedatamaskin brukes kvantebiter, eller qubits, som kan eksistere i en superposisjon av begge tilstander samtidig. Når du har 300 qubits i superposisjon, representerer de flere tilstander enn det finnes atomer i det observerbare universet.</p>
 <div class="fg">
-<div class="fc">
-<h4>Superposisjon</h4>
-<p>En qubit i superposisjon befinner seg i en lineærkombinasjon av |0⟩ og |1⟩. Dette er ikke det samme som å være "begge samtidig" — det er en genuint ny tilstand uten klassisk parallell. Superposisjonen kollapser ved måling.</p>
-<div class="mono">Hadamard-port: H|0⟩ = (|0⟩ + |1⟩)/√2</div>
+<div class="fc"><div class="ic ic-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2"/><path d="M12 4v4M12 16v4M4 12h4M16 12h4"/></svg></div><h4>Superposisjon</h4><p>En qubit kan befinne seg i tilstand 0, tilstand 1, eller en kombinasjon av begge. Dette er grunnlaget for kvanteparallellisme og gir kvantedatamaskiner deres enorme kapasitet.</p></div>
+<div class="fc"><div class="ic ic-v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="12" r="3"/><circle cx="17" cy="12" r="3"/><path d="M10 12h4" stroke-dasharray="2 2"/><path d="M7 9c3-4 7-4 10 0"/><path d="M7 15c3 4 7 4 10 0"/></svg></div><h4>Sammenfiltring</h4><p>To qubits kan kobles slik at tilstanden til én umiddelbart bestemmer den andre, uavhengig av avstand. Einstein kalte det "spøkelseaktig fjernvirkning".</p></div>
+<div class="fc"><div class="ic ic-m"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12c0 0 4-8 8-8s8 8 8 8"/><path d="M4 12c0 0 4 8 8 8s8-8 8-8"/><circle cx="12" cy="12" r="2"/></svg></div><h4>Kvanteinterferens</h4><p>Kvantebølger kan forsterke eller utslette hverandre. Kvantealgoritmer bruker dette bevisst for å øke sannsynligheten for riktige svar.</p></div>
 </div>
-<div class="fc">
-<h4>Sammenfiltring</h4>
-<p>To qubits kan bli sammenfiltret slik at de deler en kvantetilstand som ikke kan dekomponeres til individuelle tilstander. Måling av én qubit bestemmer umiddelbart tilstanden til den andre, uavhengig av avstand.</p>
-<div class="mono">Bell-tilstand: |Φ+⟩ = (|00⟩ + |11⟩)/√2</div>
-</div>
-<div class="fc">
-<h4>Kvanteinterferens</h4>
-<p>Kvantebølger kan forsterke (konstruktiv) eller utslette (destruktiv) hverandre. Kvantealgoritmer er designet for å bruke interferens til å øke amplituden for riktige svar og redusere den for gale.</p>
-<div class="mono">Grover-diffusjon: 2|ψ⟩⟨ψ| − I</div>
-</div>
-</div>
-
-<div class="co">
-<strong>Dekohærens: Qubitens verste fiende</strong>
-<p>Dekohærens oppstår når en qubit interagerer med omgivelsene og mister sin kvantetilstand. T1 (energi-relaksasjonstid) måler hvor lenge en qubit holder seg i |1⟩ før den faller til |0⟩. T2 (dekohærenstid) måler hvor lenge superposisjonen bevares. Dagens beste superledende qubits har T2-tider på opptil 1 millisekund — lang nok for tusenvis av kvanteoperasjoner, men for kort for dype kretser uten feilkorrigering.</p>
-</div>
-</section>
-
-<hr class="divider">
-
-<section id="maskinvare" class="rv">
-<div class="sm"><div class="sm-line"></div><span class="sm-tag">Hardware</span></div>
-<h2>Kvantemaskinvare: Fem tilnærminger</h2>
-<p class="sub">Hver med unike styrker, begrensninger og veikart.</p>
-
-<p>Det finnes ingen konsensus om hvilken qubit-teknologi som vil "vinne". Sannsynligvis vil forskjellige teknologier egne seg for forskjellige bruksområder, akkurat som CPU-er, GPU-er og FPGA-er sameksisterer i klassisk databehandling.</p>
-
-<div class="tw">
-<table>
-<thead><tr><th>Teknologi</th><th>Leverandør</th><th>Qubits</th><th>Portnøyaktighet</th><th>Koherenstid</th><th>Temperatur</th></tr></thead>
+<h3>Typer kvantedatamaskiner</h3>
+<p>Det finnes flere fundamentalt forskjellige tilnærminger. <a href="https://qubits.no" class="il">Qubits.no har en komplett teknisk sammenligning</a> av superledende qubits, fangede ioner, fotoniske systemer, topologiske qubits og nøytrale atomer. Kort oppsummert tilbyr IBM og Google superledende systemer med over 1000 qubits, mens IonQ og Quantinuum satser på fangede ioner med høyere presisjon. For skybasert tilgang til disse systemene, se <a href="https://quantumcloud.no" class="il vi">QuantumCloud.no</a>.</p>
+<div class="gc">
+<div class="tw-w"><table>
+<thead><tr><th>Teknologi</th><th>Leverandør</th><th>Qubits</th><th>Styrke</th><th>Utfordring</th></tr></thead>
 <tbody>
-<tr><td><strong>Superledende</strong></td><td>IBM, Google</td><td>1 121</td><td>99.5%</td><td>~100 μs</td><td>15 mK</td></tr>
-<tr><td><strong>Fangede ioner</strong></td><td>IonQ, Quantinuum</td><td>32</td><td>99.9%</td><td>~10 s</td><td>Romtemp (vakuum)</td></tr>
-<tr><td><strong>Fotonisk</strong></td><td>Xanadu, PsiQuantum</td><td>216 modes</td><td>99%</td><td>N/A</td><td>Romtemperatur</td></tr>
-<tr><td><strong>Nøytrale atomer</strong></td><td>QuEra, Pasqal</td><td>256</td><td>99.5%</td><td>~1 s</td><td>μK (laserkjøling)</td></tr>
-<tr><td><strong>Topologisk</strong></td><td>Microsoft</td><td>Forskning</td><td>Teoretisk høy</td><td>Teoretisk lang</td><td>~20 mK</td></tr>
-</tbody>
-</table>
+<tr><td>Superledende</td><td>IBM, Google</td><td>1 000+</td><td>Rask porttid</td><td>Krever ekstrem kulde</td></tr>
+<tr><td>Fangede ioner</td><td>IonQ, Quantinuum</td><td>32+</td><td>Høy nøyaktighet</td><td>Langsommere</td></tr>
+<tr><td>Fotonisk</td><td>Xanadu, PsiQuantum</td><td>Variabel</td><td>Romtemperatur</td><td>Vanskelig skalering</td></tr>
+<tr><td>Topologisk</td><td>Microsoft</td><td>Forskning</td><td>Feiltoleranse</td><td>Tidlig fase</td></tr>
+<tr><td>Nøytrale atomer</td><td>QuEra, Pasqal</td><td>256+</td><td>God skalerbarhet</td><td>Ny teknologi</td></tr>
+</tbody></table></div>
 </div>
-
-<h3>Superledende qubits</h3>
-<p>Superledende qubits er den mest modne teknologien og brukes av IBM og Google. De er basert på Josephson-koblinger — superledende kretser der strøm oscillerer mellom to tilstander. Transmon-qubiten, den vanligste varianten, er en forbedret Cooper-pair-boks med redusert følsomhet for ladningsstøy. Fordelene er rask porttid (10-100 nanosekunder) og god skalerbarhet gjennom litografisk fabrikasjon. Ulempen er kort koherenstid og behovet for dilution refrigerators som kjøler ned til 15 millikelvin.</p>
-
-<h3>Fangede ioner</h3>
-<p>Fangede ioner bruker individuelle atomer holdt i elektromagnetiske feller. Qubit-tilstanden kodes i atomets energinivåer og manipuleres med lasere. IonQ og Quantinuum leder denne teknologien. Fordelene er ekstremt høy portnøyaktighet (99.9%), lang koherenstid (sekunder) og full tilkobling mellom alle qubits. Ulempen er langsommere portoperasjoner og utfordringer med skalering utover noen hundre qubits.</p>
-
-<h3>Fotoniske systemer</h3>
-<p>Fotoniske kvantedatamaskiner bruker fotoner (lyspartikler) som qubits. Xanadu og PsiQuantum leder utviklingen. Fordelene er romtemperaturdrift, naturlig tilkobling over lange avstander og kompatibilitet med eksisterende fiber-infrastruktur. Utfordringene er at fotoner ikke interagerer lett med hverandre, noe som gjør to-qubit-porter vanskelige, og at fotodeteksjon er probabilistisk.</p>
-
-<div class="co">
-<strong>Dilution refrigerators: Kulde som muliggjør kvante</strong>
-<p>Superledende kvantedatamaskiner opererer i dilution refrigerators som kjøler ned til 15 millikelvin — 200 ganger kaldere enn verdensrommet. Disse enhetene bruker en blanding av helium-3 og helium-4 isotoper. Kjølesystemet er en av de dyreste komponentene og en viktig begrensning for skalering. Bluefors og Oxford Instruments er de ledende produsentene.</p>
+<h3>Sentrale kvantealgoritmer</h3>
+<p><strong>Shors algoritme</strong> kan faktorisere store tall eksponentielt raskere enn klassiske metoder. Dette er algoritmen som truer RSA-kryptering — les mer om konsekvensene på <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> og <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a>.</p>
+<p><strong>Grovers algoritme</strong> gir kvadratisk hastighetsøkning for søk i usorterte databaser. <strong>VQE</strong> er en hybrid kvante-klassisk algoritme for molekylære energinivåer. <strong>QAOA</strong> brukes til optimaliseringsproblemer som logistikk og porteføljeoptimalisering — relevant for <a href="https://quantumpay.no" class="il wa">kvantesikre finansielle systemer på QuantumPay.no</a>.</p>
+<div class="co cy">
+<div class="co-h"><span class="dot"></span><strong>NISQ-fasen: Hvor vi er nå</strong></div>
+<p>Vi befinner oss i NISQ-æraen: Noisy Intermediate-Scale Quantum. Dagens kvantedatamaskiner har nok qubits til å være interessante, men for mange feil for lange beregninger. Feilkorrigering krever potensielt tusenvis av fysiske qubits per logisk qubit. <a href="https://qubits.no" class="il">Qubits.no dekker feilkorrigering i detalj</a>.</p>
 </div>
 </section>
 
 <hr class="divider">
 
-<section id="porter" class="rv">
-<div class="sm"><div class="sm-line"></div><span class="sm-tag">Operasjoner</span></div>
-<h2>Kvanteporter og kvantekretser</h2>
-<p class="sub">Byggesteinene i kvanteberegning.</p>
+<!-- KRYPTOGRAFI -->
+<section id="kryptografi" class="rv">
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Sikkerhet</span></div>
+<h2>Kvantekryptografi og Q-Day</h2>
+<p class="sub">Den største sikkerhetsutfordringen i vår generasjon.</p>
+<p><strong>Kort svar:</strong> Q-Day er dagen en kvantedatamaskin bryter dagens kryptering. Eksperter anslår 2030 til 2040. For offensiv sikkerhetsanalyse, se <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a>. For enterprise compliance og migrering, se <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a>.</p>
+<p>Dagens sikkerhet hviler på matematiske problemer som er ekstremt vanskelige for klassiske datamaskiner. RSA-kryptering baserer seg på faktorisering. Elliptisk kurve-kryptografi (ECC) baserer seg på diskrete logaritmer. Begge kan løses av Shors algoritme. <a href="https://quantumpay.no" class="il wa">QuantumPay.no</a> dekker spesifikt konsekvensene for finansielle transaksjoner og betalingssystemer.</p>
+<div class="gc">
+<h3>Krypteringsalgoritmer i faresonen</h3>
+<div class="tw-w"><table>
+<thead><tr><th>Algoritme</th><th>Bruksområde</th><th>Sårbar for</th><th>Risikonivå</th></tr></thead>
+<tbody>
+<tr><td>RSA-2048</td><td>TLS, e-post, signering</td><td>Shors algoritme</td><td style="color:var(--w)">Kritisk</td></tr>
+<tr><td>ECDSA / ECDH</td><td>TLS, kryptovaluta</td><td>Shors algoritme</td><td style="color:var(--w)">Kritisk</td></tr>
+<tr><td>AES-128</td><td>Datakryptering</td><td>Grovers algoritme</td><td style="color:var(--c)">Moderat</td></tr>
+<tr><td>AES-256</td><td>Datakryptering</td><td>Grovers algoritme</td><td style="color:var(--c)">Lav</td></tr>
+<tr><td>SHA-256</td><td>Hashing, integritet</td><td>Grovers algoritme</td><td style="color:var(--c)">Moderat</td></tr>
+</tbody></table></div>
+</div>
+<div class="co wa">
+<div class="co-h"><span class="dot"></span><strong>Harvest Now, Decrypt Later</strong></div>
+<p>Aktører samler kryptert data i dag for å dekryptere den når kvantedatamaskiner blir kraftige nok. Sensitiv informasjon med lang levetid er allerede i risikosonen. <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> har en komplett guide til kryptografisk migrering, og <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a> dekker trusselmodellering.</p>
+</div>
+<h3>Post-kvante kryptografi: Løsningen</h3>
+<p>NIST standardiserte i 2024 de første post-kvante algoritmene: <strong>CRYSTALS-Kyber</strong> for nøkkelinnkapsling, <strong>CRYSTALS-Dilithium</strong> for digitale signaturer, <strong>FALCON</strong> for kompakte signaturer og <strong>SPHINCS+</strong> for hashbaserte signaturer. Quantum Key Distribution (QKD) er en alternativ tilnærming som gjør avlytting fysisk detekterbar.</p>
+</section>
 
-<p>Kvanteporter er operasjoner som endrer tilstanden til qubits, tilsvarende logiske porter (AND, OR, NOT) i klassisk databehandling. Forskjellen er at kvanteporter alltid er reversible (unitære) og opererer på kontinuerlige amplituder heller enn diskrete verdier.</p>
+<hr class="divider">
 
+<!-- AI -->
+<section id="ai" class="rv">
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Intelligens</span></div>
+<h2>Kunstig intelligens i praksis</h2>
+<p class="sub">Fra teori til verdiskaping for norske virksomheter.</p>
+<p><strong>Kort svar:</strong> AI er datasystemer som lærer fra data, gjenkjenner mønstre og tar beslutninger. Moderne AI drevet av dyp læring har nådd et nivå der den kan automatisere komplekst kunnskapsarbeid. Kombinert med kvanteberegning — tilgjengelig via <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a> — åpnes helt nye muligheter.</p>
 <div class="fg">
-<div class="fc">
-<h4>Enkeltqubit-porter</h4>
-<p><strong>Hadamard (H):</strong> Skaper superposisjon. Sender |0⟩ til (|0⟩+|1⟩)/√2. <strong>Pauli-X:</strong> Kvanteversjon av NOT, flipper |0⟩ og |1⟩. <strong>Pauli-Z:</strong> Endrer fasen, sender |1⟩ til -|1⟩. <strong>T-port:</strong> Legger til en π/4-fase, kritisk for universell beregning.</p>
+<div class="fc"><div class="ic ic-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="18" cy="18" r="3"/></svg></div><h4>Maskinlæring</h4><p>Systemer som forbedres gjennom erfaring med data. Veiledet, uveiledet og forsterkningslæring driver alt fra anbefalinger til robotikk.</p></div>
+<div class="fc"><div class="ic ic-v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 3v18"/></svg></div><h4>Dyp læring</h4><p>Nevrale nettverk med mange lag. Grunnlaget for bildegjenkjenning, språkbehandling og generativ AI.</p></div>
+<div class="fc"><div class="ic ic-m"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v3m0 12v3M3 12h3m12 0h3"/><circle cx="12" cy="12" r="5"/><path d="M12 9v6M9 12h6"/></svg></div><h4>Store språkmodeller</h4><p>AI trent på massive tekstmengder. GPT, Claude og Gemini kan generere, analysere og resonnere over tekst.</p></div>
 </div>
-<div class="fc">
-<h4>To-qubit-porter</h4>
-<p><strong>CNOT:</strong> Controlled-NOT, flipper mål-qubit hvis kontroll-qubit er |1⟩. Grunnleggende for å skape sammenfiltring. <strong>CZ:</strong> Controlled-Z, legger til fase. <strong>SWAP:</strong> Bytter tilstandene til to qubits. Disse portene sammen med enkeltqubit-porter gir universell kvanteberegning.</p>
-</div>
-<div class="fc">
-<h4>Universelle portsett</h4>
-<p>Et universelt portsett kan uttrykke enhver kvanteoperasjon til vilkårlig presisjon. {H, T, CNOT} er et standard universelt sett. Solovay-Kitaev-teoremet garanterer at enhver unitær operasjon kan dekomponeres effektivt. Forskjellige maskinvareplattformer har forskjellige native portsett.</p>
-</div>
+<h3>AI i norsk næringsliv</h3>
+<p>Equinor bruker maskinlæring for prediktivt vedlikehold. DNB bruker AI til svindeldeteksjon. Telenor implementerer AI-drevet kundeservice. Kongsberg utvikler autonome fartøyer. Finanssektoren ser spesielt på <a href="https://quantumpay.no" class="il wa">kvantesikre betalingsløsninger</a> for å fremtidssikre infrastruktur, mens <a href="https://quantumsecurity.no" class="il vi">enterprise-sikkerhet</a> blir stadig viktigere.</p>
+<div class="co vi">
+<div class="co-h"><span class="dot"></span><strong>Kvante-AI: Når teknologiene møtes</strong></div>
+<p>Kvante-AI kombinerer kvanteberegningens unike egenskaper med maskinlæringens fleksibilitet. Kvantemaskinlæring (QML) bruker parametriserte kvantekretsløp som modeller. <a href="https://qubits.no" class="il">Qubits.no</a> dekker maskinvaren, og <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a> viser hvordan du får tilgang via skytjenester. Sammen kan de gi gjennombrudd innen legemiddelutvikling, materialvitenskap og klimamodellering.</p>
 </div>
 </section>
 
 <hr class="divider">
 
-<section id="feilkorr" class="rv">
-<div class="sm"><div class="sm-line"></div><span class="sm-tag">Feiltoleranse</span></div>
-<h2>Kvantefeilkorrigering</h2>
-<p class="sub">Veien fra NISQ til feiltolerante kvantedatamaskiner.</p>
-
-<p><strong>Kort svar:</strong> Kvantefeilkorrigering er teknikker som beskytter kvanteinformasjon mot dekohærens og portefeil ved å kode logisk informasjon redundant i mange fysiske qubits. Surface code er den mest lovende metoden for superledende qubits, med en feilterskel på omtrent 1% — betyr at så lenge fysiske feilrater er under 1%, kan feilkorrigeringen forbedre påliteligheten vilkårlig.</p>
-
-<p>Utfordringen er overhead. For å skape én logisk qubit med tilstrekkelig lav feilrate kan det kreves 1 000 til 10 000 fysiske qubits med dagens metoder. En praktisk feilkorrigert kvantedatamaskin med 1 000 logiske qubits kan trenge millioner av fysiske qubits. Dette er grunnen til at skalering av qubit-antall og kvalitet er den sentrale utfordringen.</p>
-
-<div class="tw">
-<table>
-<thead><tr><th>Feilkorreksjonskode</th><th>Type</th><th>Overhead</th><th>Terskel</th><th>Status</th></tr></thead>
-<tbody>
-<tr><td>Surface code</td><td>Topologisk</td><td>~1000:1</td><td>~1%</td><td>Demonstrert under terskel</td></tr>
-<tr><td>Color code</td><td>Topologisk</td><td>~500:1</td><td>~0.3%</td><td>Aktiv forskning</td></tr>
-<tr><td>Bosonic (cat/GKP)</td><td>Kontinuerlig-variabel</td><td>~10:1</td><td>Varierer</td><td>Lovende tidlig fase</td></tr>
-<tr><td>LDPC codes</td><td>Kvante-LDPC</td><td>~100:1</td><td>~0.7%</td><td>Teoretisk lovende</td></tr>
-</tbody>
-</table>
-</div>
-
-<div class="co">
-<strong>Googles milepæl i 2024</strong>
-<p>Google demonstrerte i 2024 at feilraten for deres surface code sank under terskelen når de økte kodens størrelse, som betyr at å legge til flere fysiske qubits faktisk forbedret den logiske qubitens kvalitet. Dette var første gang dette ble vist eksperimentelt, og markerer overgangen fra NISQ-æraen mot feiltolerante systemer.</p>
+<!-- TIDSLINJE -->
+<section id="tidslinje" class="rv">
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Tidslinje</span></div>
+<h2>Veien mot kvantemodenhet</h2>
+<p class="sub">Fra NISQ til feiltolerante systemer.</p>
+<div class="tl">
+<div class="tl-i"><div class="tl-d"></div><div class="tl-y">2024 — 2026: NISQ-eksperimentering</div><div class="tl-tt">Hybrid kvante-klassiske algoritmer</div><div class="tl-dd">Post-kvante kryptografi standardiseres. Norske forskningsgrupper deltar i europeiske pilotprosjekter. <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> dekker NIST-standardene og migreringsstrategier for norske virksomheter.</div></div>
+<div class="tl-i"><div class="tl-d"></div><div class="tl-y">2027 — 2030: Kvantefordel</div><div class="tl-tt">Industrielt relevante gjennombrudd</div><div class="tl-dd">Første demonstrasjoner av kvantefordel for spesifikke problemer. <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a> følger utviklingen hos IBM, Google og Amazon. Norske energi- og havbrukselskaper starter pilotprogrammer.</div></div>
+<div class="tl-i"><div class="tl-d"></div><div class="tl-y">2030 — 2035: Feiltoleranse</div><div class="tl-tt">Kryptografisk relevante kvantedatamaskiner</div><div class="tl-dd">Q-Day potensielt en realitet. Full overgang til post-kvante kryptografi kritisk. <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a> overvåker trusselsituasjonen. <a href="https://quantumpay.no" class="il wa">QuantumPay.no</a> dekker implikasjoner for betalingsinfrastruktur.</div></div>
+<div class="tl-i"><div class="tl-d"></div><div class="tl-y">2035+: Kvantemodenhet</div><div class="tl-tt">Bred kommersiell tilgang</div><div class="tl-dd">Kvantedatamaskiner integrert i standard IT-infrastruktur via <a href="https://quantumcloud.no" class="il">skytjenester</a>. Nye industrier oppstår. Norge potensielt ledende innen kvanteoptimalisert energi og havbruk. <a href="https://qubits.no" class="il">Qubits.no</a> følger maskinvareutviklingen.</div></div>
 </div>
 </section>
 
 <hr class="divider">
 
+<!-- STRATEGI -->
+<section id="strategi" class="rv">
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Handlingsplan</span></div>
+<h2>Strategisk handlingsplan for norske bedrifter</h2>
+<p class="sub">Syv konkrete steg fra i dag til kvantemoden.</p>
+<ol class="steps">
+<li><strong>Gjennomfør kryptografisk revisjon</strong><p>Kartlegg alle krypteringsalgoritmer i bruk. <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> har en komplett veiledning for enterprise compliance og kryptografisk inventar.</p></li>
+<li><strong>Implementer kryptoagilitet</strong><p>Redesign systemer slik at algoritmer kan byttes uten endring i applikasjonslogikk. <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a> dekker teknisk implementering og trusselmodellering.</p></li>
+<li><strong>Start post-kvante migrering</strong><p>Begynn med CRYSTALS-Kyber og CRYSTALS-Dilithium. Kjør hybride oppsett. For finansielle systemer, se <a href="https://quantumpay.no" class="il wa">QuantumPay.no</a>.</p></li>
+<li><strong>Kartlegg AI-bruksområder</strong><p>Vurder hvor AI gir umiddelbar verdi. Automatisering, beslutningsstøtte og prediktiv analyse er de vanligste startpunktene.</p></li>
+<li><strong>Bygg kvantekompetanse</strong><p><a href="https://qubits.no" class="il">Qubits.no</a> gir teknisk grunnlag. <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a> viser hvordan du eksperimenterer med ekte kvanteprosessorer via skytjenester.</p></li>
+<li><strong>Etabler forskningspartnerskap</strong><p>Samarbeid med SINTEF, NTNU eller Simula. Søk midler fra Norges forskningsråd og Horizon Europe.</p></li>
+<li><strong>Utvikle kvantestrategi for 2030</strong><p>Lag en femårig plan som dekker kompetanse, teknologi, partnerskap og piloter. <a href="https://it-firma.no" class="il" target="_blank" rel="noopener">IT-FIRMA</a> tilbyr strategisk rådgivning.</p></li>
+</ol>
+<div class="co ma">
+<div class="co-h"><span class="dot"></span><strong>Ikke vent til det er for sent</strong></div>
+<p>Kryptografisk migrering tar år, ikke måneder. Virksomheter som starter nå har et betydelig forsprang. <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> og <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a> gir deg verktøyene du trenger for å komme i gang.</p>
+</div>
+</section>
+
+<hr class="divider">
+
+<!-- BEGREPER -->
 <section id="begreper" class="rv">
 <div class="sm"><div class="sm-line"></div><span class="sm-tag">Ordliste</span></div>
-<h2>Tekniske nøkkelbegreper</h2>
+<h2>Nøkkelbegreper og entiteter</h2>
+<p class="sub">Komplett vokabular for AI og kvanteteknologi.</p>
+<p><strong>Qubit</strong> er den grunnleggende informasjonsenheten — utforskes i dybden på <a href="https://qubits.no" class="il">Qubits.no</a>. <strong>Kvanteport</strong> er operasjoner som manipulerer qubits. <strong>Kvantevolum</strong> måler en kvantedatamaskins samlede ytelse. <strong>Dekohærens</strong> er prosessen der kvanteinformasjon går tapt. <strong>Post-kvante kryptografi</strong> dekkes i detalj på <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a>.</p>
 <div class="ents">
-<span class="tag">Qubit</span><span class="tag">Superposisjon</span><span class="tag">Sammenfiltring</span><span class="tag">Dekohærens</span>
-<span class="tag">T1-tid</span><span class="tag">T2-tid</span><span class="tag">Bloch-sfære</span><span class="tag">Transmon</span>
-<span class="tag">Josephson-kobling</span><span class="tag">CNOT</span><span class="tag">Hadamard</span><span class="tag">Pauli-porter</span>
-<span class="tag">T-port</span><span class="tag">Surface code</span><span class="tag">NISQ</span><span class="tag">Kvantevolum</span>
-<span class="tag">Dilution refrigerator</span><span class="tag">Fangede ioner</span><span class="tag">Fotonisk</span><span class="tag">Topologisk qubit</span>
-<span class="tag">Bell-tilstand</span><span class="tag">Kvanteteleportasjon</span><span class="tag">No-cloning-teoremet</span>
-<span class="tag">Shors algoritme</span><span class="tag">Grovers algoritme</span><span class="tag">VQE</span><span class="tag">QAOA</span>
+<span class="tag">Qubit</span><span class="tag">Superposisjon</span><span class="tag">Sammenfiltring</span><span class="tag">Kvanteinterferens</span><span class="tag">Dekohærens</span><span class="tag">NISQ</span><span class="tag">Kvantevolum</span><span class="tag">Kvanteport</span><span class="tag">Shors algoritme</span><span class="tag">Grovers algoritme</span><span class="tag">VQE</span><span class="tag">QAOA</span><span class="tag">QKD</span><span class="tag">CRYSTALS-Kyber</span><span class="tag">CRYSTALS-Dilithium</span><span class="tag">RSA-2048</span><span class="tag">ECC</span><span class="tag">Maskinlæring</span><span class="tag">Dyp læring</span><span class="tag">Transformere</span><span class="tag">SINTEF</span><span class="tag">NTNU</span><span class="tag">UiO</span><span class="tag">Simula</span><span class="tag">Quantum Flagship</span><span class="tag">IBM Quantum</span><span class="tag">Google Sycamore</span><span class="tag">IonQ</span><span class="tag">Q-Day</span><span class="tag">NIST</span><span class="tag">EuroQCI</span>
 </div>
 </section>
 
 <hr class="divider">
 
+<!-- FAQ -->
 <section id="faq" class="rv">
-<div class="sm"><div class="sm-line"></div><span class="sm-tag">FAQ</span></div>
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Spørsmål og svar</span></div>
 <h2>Ofte stilte spørsmål</h2>
-<p class="sub">Tekniske svar på vanlige spørsmål om qubits.</p>
+<p class="sub">Alt du lurer på om AI og kvanteteknologi.</p>
 
-<div class="faq-item"><div class="faq-q">Hva er en qubit?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">En qubit er den grunnleggende informasjonsenheten i kvanteberegning. Matematisk beskrives den som |ψ⟩ = α|0⟩ + β|1⟩, der α og β er komplekse amplituder som tilfredsstiller |α|² + |β|² = 1. Fysisk kan en qubit realiseres som et superledende kretsløp, et fanget ion, en foton, et nøytralt atom, eller andre kvantemekaniske to-nivå-systemer. Ved måling kollapser superposisjonen og gir 0 eller 1 med sannsynligheter bestemt av amplitudene.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er kvantedatabehandling og hvorfor er det viktig?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Kvantedatabehandling utnytter kvantemekaniske fenomener som superposisjon, sammenfiltring og interferens for å løse problemer eksponentielt raskere enn klassiske systemer. Betydningen ligger i potensialet til å revolusjonere legemiddelutvikling, energioptimalisering, finansiell modellering og cybersikkerhet. For teknisk dybde om selve maskinvaren, besøk <a href="https://qubits.no" class="il">Qubits.no</a>.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er forskjellen mellom fysiske og logiske qubits?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Fysiske qubits er de faktiske kvantebitene i maskinvaren, med alle sine feil og begrensninger. Logiske qubits er feilkorrigerte qubits som bruker mange fysiske qubits for å kode informasjon redundant. Surface code kan kreve 1 000 til 10 000 fysiske qubits per logisk qubit. IBMs 1 121-qubit Condor-prosessor har dermed potensielt bare noen få logiske qubits — for få for de fleste praktiske algoritmer. Dette er grunnen til at skalering er kritisk.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er en qubit og hvordan skiller den seg fra en klassisk bit?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">En qubit er den grunnleggende informasjonsenheten i kvanteberegning. En klassisk bit er enten 0 eller 1. En qubit kan eksistere i superposisjon av begge tilstander, representert som α|0⟩ + β|1⟩ der α og β er sannsynlighetsamplituder. Fysisk realiseres qubits som superledende kretser, fangede ioner, fotoner eller nøytrale atomer. <a href="https://qubits.no" class="il">Qubits.no</a> har en komplett sammenligning av alle teknologiene.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er dekohærens?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Dekohærens er prosessen der en qubit mister sin kvantetilstand gjennom interaksjon med omgivelsene. T1 (energi-relaksasjon) måler tiden før en eksitert qubit faller til grunntilstanden. T2 (dekohærenstid) måler tiden superposisjonen bevares. Vanlige årsaker er termisk støy, elektromagnetisk stråling, materialdefekter og kosmisk stråling. Superledende qubits har T2 på ~100 μs, fangede ioner opptil 10 sekunder.</div></div>
+<div class="faq-item"><div class="faq-q">Truer kvantedatamaskiner cybersikkerheten?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Ja, dette er en reell trussel. Shors algoritme kan bryte RSA-2048 og ECC-kryptering. Q-Day estimeres til 2030-2040. "Harvest Now, Decrypt Later"-angrep betyr at data allerede samles inn for fremtidig dekryptering. <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> dekker enterprise migrering, og <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a> fokuserer på offensiv trusselanalyse.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hvilke typer qubits finnes?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">De fem hovedtypene er superledende qubits (transmon, fluxonium — brukt av IBM og Google), fangede ioner (brukt av IonQ og Quantinuum med ytterbium og barium), fotoniske qubits (brukt av Xanadu med squeezed light og PsiQuantum med single photons), nøytrale atomer (brukt av QuEra og Pasqal med rubidium i optiske pinsetter), og topologiske qubits (Microsofts tilnærming med Majorana-fermioner). Hver har unike styrker i portnøyaktighet, koherenstid og skalerbarhet.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er post-kvante kryptografi?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Post-kvante kryptografi er krypteringsalgoritmer designet for å motstå angrep fra både klassiske og kvantedatamaskiner. NIST standardiserte i 2024 CRYSTALS-Kyber for nøkkelinnkapsling og CRYSTALS-Dilithium for signaturer. Disse erstatter gradvis RSA og ECC. <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> har veiledninger for implementering i norske virksomheter.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er kvantevolum?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Kvantevolum (QV) er et mål utviklet av IBM som fanger en kvantedatamaskins samlede ytelse i ett tall. QV = 2^n der n er det største antall qubits som kan kjøre en tilfeldig krets med tilstrekkelig nøyaktighet. Det tar hensyn til antall qubits, tilkobling, portnøyaktighet og kretsdybde. Et QV på 128 betyr at maskinen kan kjøre kretser med 7 qubits pålitelig. Alternativt brukes CLOPS (Circuit Layer Operations Per Second) for gjennomstrømning.</div></div>
+<div class="faq-item"><div class="faq-q">Kan jeg bruke kvantedatamaskiner i dag via skyen?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Ja. IBM Quantum Network gir tilgang til prosessorer med over 1000 qubits. Amazon Braket tilbyr flere kvanteplattformer. Microsoft Azure Quantum integrerer simulatorer og ekte kvantedatamaskiner. Google tilbyr Cirq-rammeverket. <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a> har en komplett sammenligning og veiledning for alle skyplattformene.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hvorfor må qubits kjøles ned?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Superledende qubits opererer ved ~15 millikelvin fordi kvanteenergien i qubiten (~5 GHz, ~0.2 meV) er mye mindre enn termisk energi ved romtemperatur (~25 meV). Ved millikelvin-temperaturer er termisk støy neglisjerbar, og superledende kretser har null elektrisk motstand. Dilution refrigerators bruker en blanding av helium-3 og helium-4 for å oppnå disse temperaturene. Fangede ioner og nøytrale atomer bruker laserkjøling i stedet for kryogene systemer.</div></div>
+<div class="faq-item"><div class="faq-q">Er finansielle transaksjoner sårbare for kvanteangrep?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Ja. Betalingssystemer bruker RSA og ECC for autentisering, nøkkelutveksling og digitale signaturer. Disse er sårbare for Shors algoritme. Bankoverføringer, kortbetalinger og kryptovaluta er alle berørt. <a href="https://quantumpay.no" class="il wa">QuantumPay.no</a> dekker kvantesikre betalingsløsninger og migreringsstrategier for finanssektoren.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er en kvanteport?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">En kvanteport er en unitær operasjon som manipulerer qubit-tilstander. Enkeltqubit-porter (H, X, Y, Z, S, T) roterer tilstanden på Bloch-sfæren. To-qubit-porter (CNOT, CZ, SWAP) skaper sammenfiltring mellom qubits. Settet {H, T, CNOT} er universelt og kan tilnærme enhver kvanteoperasjon. Fysisk implementeres porter som mikrobølgepulser (superledende), laserpulser (ioner) eller optiske elementer (fotonisk). Portnøyaktighet er den viktigste ytelsesparameteren.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er Q-Day og når kan det skje?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Q-Day er tidspunktet der en kvantedatamaskin bryter RSA-2048. Estimatene varierer fra 2030 til 2040. Uavhengig av nøyaktig tidspunkt haster forberedelsene fordi kryptografisk migrering tar mange år. <a href="https://quantumsec.no" class="il ma">QuantumSec.no</a> overvåker trusselbildet, og <a href="https://quantumsecurity.no" class="il vi">QuantumSecurity.no</a> har compliance-veiledninger.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er kvantefeilkorrigering?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Kvantefeilkorrigering beskytter logisk kvanteinformasjon ved å kode den i mange fysiske qubits. Surface code er den ledende metoden, der qubits arrangeres i et 2D-gitter med data-qubits og syndrom-qubits. Syndrom-målinger detekterer feil uten å forstyrre den logiske tilstanden. Feilraten synker eksponentielt med kode-størrelsen, forutsatt at fysiske feilrater er under terskelen (~1%). Google demonstrerte denne skaleringsegenskapen eksperimentelt i 2024, en kritisk milepæl.</div></div>
+<div class="faq-item"><div class="faq-q">Finnes det norske forskningsmiljøer innen kvanteteknologi?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Ja. NTNU har aktive grupper innen kvantefysikk og kvanteinformasjon. Universitetet i Oslo forsker på kvantemateriell. SINTEF jobber med industrielle anvendelser. Simula forsker på kvantealgoritmer. Norge deltar i EUs Quantum Flagship med budsjett over €1 milliard. Norges forskningsråd finansierer nasjonale prosjekter.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er NISQ-æraen?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">NISQ (Noisy Intermediate-Scale Quantum) beskriver nåværende kvantedatamaskiner med 50-1000+ qubits og feilrater på 0.1-1%. Begrepet ble innført av John Preskill i 2018. NISQ-algoritmer som VQE og QAOA er designet for å gi nyttige resultater innenfor disse begrensningene ved å bruke korte kvantekretser i hybrid med klassisk prosessering. Spørsmålet om NISQ-maskiner kan gi kvantefordel for praktiske problemer er fortsatt åpent og aktivt forsket på.</div></div>
+<div class="faq-item"><div class="faq-q">Hva bør norske bedrifter gjøre akkurat nå?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Start med kryptografisk revisjon, implementer kryptoagilitet, og begynn post-kvante migrering. Bygg AI-kompetanse og kartlegg bruksområder. Etabler partnerskap med forskningsmiljøer og søk forskningsfinansiering. <a href="https://it-firma.no" class="il" target="_blank" rel="noopener">IT-FIRMA</a> tilbyr strategisk rådgivning for bedrifter som vil komme i gang.</div></div>
 
-<div class="faq-item"><div class="faq-q">Når får vi feiltolerante kvantedatamaskiner?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">IBMs veikart sikter mot feiltolerante systemer med 100 000+ qubits innen 2033. Googles mål er 1 million fysiske qubits innen 2029. Microsoft satser på topologiske qubits som kan forenkle feilkorrigering. Realistisk anslår de fleste eksperter at praktisk feiltolerante systemer med nok logiske qubits for Shors algoritme på RSA-2048 kommer mellom 2035 og 2045. Bosonic codes og bedre dekodere kan akselerere tidslinjen ved å redusere overhead.</div></div>
+<div class="faq-item"><div class="faq-q">Kan småbedrifter dra nytte av AI og kvanteteknologi?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Absolutt. AI-verktøy er allerede rimelige og tilgjengelige. Kvanteteknologi vil bli tilgjengelig via skytjenester uten egen maskinvare — følg utviklingen på <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a>. Innovasjon Norge og Norges forskningsråd tilbyr tilskudd som gjør det mulig for mindre aktører å delta. <a href="https://qubits.no" class="il">Qubits.no</a> gir det tekniske grunnlaget du trenger.</div></div>
 </section>
 
 </main>
 
 <footer>
 <div class="ft">
-<div class="ft-col">
-<h5>Økosystem</h5>
-<a href="https://aiquantum.no">AIQUANTUM.no</a>
-<a href="https://quantumcloud.no">QuantumCloud.no</a>
-<a href="https://quantumpay.no">QuantumPay.no</a>
-<a href="https://quantumsec.no">QuantumSec.no</a>
-<a href="https://quantumsecurity.no">QuantumSecurity.no</a>
+<div>
+<div class="ft-b"><span>AIQUANTUM.no</span></div>
+<p>Norges kunnskapsbase for AI og kvanteteknologi. Navet i et økosystem av seks spesialiserte plattformer, drevet av <a href="https://it-firma.no" target="_blank" rel="noopener">IT-FIRMA</a>.</p>
 </div>
-<div class="ft-col">
+<div>
 <h5>Kunnskapsbase</h5>
-<a href="#fysikk">Kvantefysikk</a>
-<a href="#maskinvare">Maskinvare</a>
-<a href="#porter">Kvanteporter</a>
-<a href="#feilkorr">Feilkorrigering</a>
+<a href="#kvanteberegning">Kvanteberegning</a>
+<a href="#kryptografi">Kvantekryptografi</a>
+<a href="#ai">Kunstig intelligens</a>
+<a href="#tidslinje">Tidslinje</a>
+<a href="#strategi">Handlingsplan</a>
+<a href="#faq">FAQ</a>
 </div>
-<div class="ft-col">
+<div>
+<h5>Økosystem</h5>
+<a href="https://qubits.no" target="_blank" rel="noopener">Qubits.no</a>
+<a href="https://quantumcloud.no" target="_blank" rel="noopener">QuantumCloud.no</a>
+<a href="https://quantumpay.no" target="_blank" rel="noopener">QuantumPay.no</a>
+<a href="https://quantumsec.no" target="_blank" rel="noopener">QuantumSec.no</a>
+<a href="https://quantumsecurity.no" target="_blank" rel="noopener">QuantumSecurity.no</a>
+</div>
+<div>
 <h5>Selskapet</h5>
-<a href="https://it-firma.no">IT-FIRMA</a>
+<a href="https://it-firma.no" target="_blank" rel="noopener">IT-FIRMA</a>
+<a href="https://it-firma.no/tjenester" target="_blank" rel="noopener">Tjenester</a>
+<a href="https://it-firma.no/om-oss" target="_blank" rel="noopener">Om oss</a>
+<a href="https://it-firma.no/kontakt" target="_blank" rel="noopener">Kontakt</a>
 </div>
 </div>
-<div class="ft-bottom">
-<span>&copy; 2026 QUBITS.no — En del av <a href="https://it-firma.no">IT-FIRMA</a></span>
-<span>Del av <a href="https://aiquantum.no">AIQUANTUM.no</a>-økosystemet</span>
+<div class="ft-line">
+<span>&copy; 2026 AIQUANTUM.no — En del av <a href="https://it-firma.no" target="_blank" rel="noopener">IT-FIRMA</a></span>
+<span>Kunnskapsformidling, ikke rådgivning</span>
 </div>
 </footer>
 
 <script>
 (function(){
 var pb=document.getElementById('pb'),hdr=document.querySelector('header'),tick=false;
-window.addEventListener('scroll',function(){if(!tick){requestAnimationFrame(function(){
-var h=document.documentElement,p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;
-pb.style.width=Math.min(p,100)+'%';
-hdr.style.background=scrollY>40?'rgba(4,10,6,.9)':'rgba(4,10,6,.7)';
-tick=false;});tick=true;}},{passive:true});
-document.querySelectorAll('.faq-q').forEach(function(q){q.addEventListener('click',function(){
-var it=this.parentElement,o=it.classList.contains('open');
-document.querySelectorAll('.faq-item.open').forEach(function(e){e.classList.remove('open')});
-if(!o) it.classList.add('open');});});
+function onScroll(){if(!tick){requestAnimationFrame(function(){var h=document.documentElement,p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;pb.style.width=Math.min(p,100)+'%';hdr.style.background=scrollY>40?'rgba(3,3,10,.88)':'rgba(3,3,10,.55)';tick=false});tick=true}}
+window.addEventListener('scroll',onScroll,{passive:true});
+document.querySelectorAll('.faq-q').forEach(function(q){q.addEventListener('click',function(){var it=this.parentElement,o=it.classList.contains('open');document.querySelectorAll('.faq-item.open').forEach(function(e){e.classList.remove('open')});if(!o)it.classList.add('open')})});
 var els=document.querySelectorAll('.rv');
-if('IntersectionObserver' in window){
-var obs=new IntersectionObserver(function(ent){ent.forEach(function(e){if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target);}});},{threshold:.05,rootMargin:'0px 0px -60px 0px'});
-els.forEach(function(e){obs.observe(e)});
-}else{els.forEach(function(e){e.classList.add('v')});}
-document.querySelectorAll('.fc').forEach(function(c){
-c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect();c.style.background='radial-gradient(circle 200px at '+(e.clientX-r.left)+'px '+(e.clientY-r.top)+'px,rgba(0,255,136,.03),rgba(255,255,255,.02) 50%)';});
-c.addEventListener('mouseleave',function(){c.style.background='';});});
-var secs=document.querySelectorAll('section[id]'),navs=document.querySelectorAll('nav a[href^="#"]');
-new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){
-navs.forEach(function(l){l.classList.toggle('act',l.getAttribute('href')==='#'+e.target.id);});}});
-},{threshold:.2,rootMargin:'-80px 0px -60% 0px'}).observe&&secs.forEach(function(s){new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){navs.forEach(function(l){l.classList.toggle('act',l.getAttribute('href')==='#'+e.target.id);});}});},{threshold:.2,rootMargin:'-80px 0px -60% 0px'}).observe(s)});
+if('IntersectionObserver' in window){var obs=new IntersectionObserver(function(ent){ent.forEach(function(e){if(e.isIntersecting){e.target.classList.add('v');obs.unobserve(e.target)}})},{threshold:.05,rootMargin:'0px 0px -60px 0px'});els.forEach(function(e){obs.observe(e)})}else{els.forEach(function(e){e.classList.add('v')})}
+document.querySelectorAll('.gc,.fc,.eco-c').forEach(function(c){c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;c.style.background='radial-gradient(circle 250px at '+x+'px '+y+'px,rgba(0,229,255,.03),rgba(255,255,255,.025) 50%,rgba(255,255,255,.025))'});c.addEventListener('mouseleave',function(){c.style.background=''})});
+var sections=document.querySelectorAll('section[id]'),navLinks=document.querySelectorAll('nav a[href^="#"]');
+var navObs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){var id=e.target.id;navLinks.forEach(function(l){l.classList.toggle('act',l.getAttribute('href')==='#'+id)})}})},{threshold:.15,rootMargin:'-80px 0px -60% 0px'});
+sections.forEach(function(s){navObs.observe(s)});
 })();
 </script>
 </body>
